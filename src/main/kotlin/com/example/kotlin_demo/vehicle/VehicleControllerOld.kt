@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/vehicle")
-class VehicleController {
+class VehicleControllerOld {
     @Autowired
-    lateinit var vehicleService: VehicleService
+    lateinit var vehicleService: VehicleServiceOld
 
     @GetMapping
     fun getVehicles(){

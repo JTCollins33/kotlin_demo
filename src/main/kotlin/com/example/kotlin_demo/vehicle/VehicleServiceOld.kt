@@ -3,7 +3,7 @@ package com.example.kotlin_demo.vehicle
 import org.springframework.stereotype.Service
 
 @Service
-class VehicleService {
+class VehicleServiceOld {
 
     fun Car.computeMakeLength(): Int {
         return make?.length ?: 0
