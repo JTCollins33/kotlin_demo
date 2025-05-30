@@ -1,5 +1,6 @@
-package com.example.kotlin_demo.service
+package com.example.kotlin_demo.controller
 
+import com.example.kotlin_demo.service.VehicleService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
